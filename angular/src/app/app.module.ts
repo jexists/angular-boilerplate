@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SharedComponent } from './shared/shared.component';
+import { ViewsComponent } from './views/views.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [		
+    AppComponent,
+      SharedComponent,
+      ViewsComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
