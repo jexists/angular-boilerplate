@@ -7,11 +7,11 @@ import { SharedComponent } from './shared/shared.component';
 import { ViewsComponent } from './views/views.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
-      SharedComponent,
-      ViewsComponent
-   ],
+    SharedComponent,
+    ViewsComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule
